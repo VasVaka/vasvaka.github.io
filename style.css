@@ -1,0 +1,119 @@
+#hideMe {
+    -moz-animation: cssAnimation 0s ease-in 5s forwards;
+    /* Firefox */
+    -webkit-animation: cssAnimation 0s ease-in 5s forwards;
+    /* Safari and Chrome */
+    -o-animation: cssAnimation 0s ease-in 5s forwards;
+    /* Opera */
+    animation: cssAnimation 0s ease-in 5s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+@keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        overflow:hidden;
+    }
+}
+@-webkit-keyframes cssAnimation {
+    to {
+        width:0;
+        height:0;
+        visibility:hidden;
+    }
+}
+.center {
+	padding-top: 250px
+   }
+.hide_block1 {
+  overflow: hidden;
+  animation: showDiv1 5.5s forwards;
+}
+@keyframes showDiv1 {
+  0%, 99% {
+    height: 0px;
+  }
+  100% {
+    height: auto;
+	top: 50px;
+	right: 410px;
+	position: absolute;
+  }
+}
+.hide_block2 {
+  overflow: hidden;
+  animation: showDiv2 6s forwards;
+}
+@keyframes showDiv2 {
+  0%, 99% {
+    height: 0px;
+  }
+  100% {
+	margin-top: 125px;
+	text-align: center;
+  }
+}
+.fontINPUT {
+	height: 40px;
+	font-size: 20px
+}
+.hide_block3 {
+  overflow: hidden;
+  animation: showDiv3 6s forwards;
+}
+@keyframes showDiv3 {
+  0%, 99% {
+    height: 0px;
+  }
+  100% {
+	margin-top: 25px;
+	text-align: center;
+  }
+}
+.hide_block4 {
+  overflow: hidden;
+  animation: showDiv4 6s forwards;
+  position: absolute
+}
+@keyframes showDiv4 {
+  0%, 99% {
+    height: 0px;
+  }
+  100% {
+	top: 15px;
+	left:180px 
+  }
+}
+.hide_block5 {
+  overflow: hidden;
+  animation: showDiv5 6s forwards;
+  position: absolute
+}
+@keyframes showDiv5 {
+  0%, 99% {
+    height: 0px;
+  }
+  100% {
+	top: 730px;
+	left: 570px
+	
+  }
+}
+.hide_block6 {
+  overflow: hidden;
+  animation: showDiv6 6s forwards;
+  position: absolute
+}
+@keyframes showDiv6 {
+  0%, 99% {
+    height: 0px;
+  }
+  100% {
+	top: 730px;
+	right: 505px
+	
+  }
+}
+
+}
